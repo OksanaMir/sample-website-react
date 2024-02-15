@@ -20,12 +20,67 @@ export const commonStyles = makeStyles()(theme => {
 				margin: '0 auto'
 			}
 		},
+		header1: {
+			color: primaryColor,
+			fontSize: 24,
+			fontFamily: 'Inter',
+			fontWeight: '500'
+		},
+		info: {
+			width: '100%',
+			color: 'black',
+			fontSize: 22,
+			fontFamily: 'Inter',
+			fontWeight: '400',
+			wordWrap: 'break-word'
+		},
+		invitationPage: {
+			width: '1043px',
+			height: '100vh',
+			margin: '0 auto',
+			display: 'grid',
+			gridTemplateRows: '4fr',
+			alignItems: 'center'
+		},
 		btn: {
 			backgroundColor: primaryBtnBg
 		},
 		footer: {
 			backgroundColor: primaryColor
 		},
-		secondaryBtn: { backgroundColor: secondaryColor }
+		secondaryBtn: { backgroundColor: secondaryColor },
+		cityPhotos: {
+			maxHeight: '150px',
+
+			flexGrow: '0',
+			flexShrink: '1',
+			padding: 'auto',
+			flexBasis: '70%'
+		},
+		carousel: {
+			position: 'absolute',
+			bottom: '0',
+			left: '25%'
+
+			// alignSelf: 'end',
+		},
+		flexContainer: {
+			// display: 'flex',
+			// flexDirection: 'row',
+			margin: 'auto',
+			alignSelf: 'center'
+		},
+		progressBarContainer: {},
+
+		active: {
+			color: '#1D878C'
+		},
+		inActive: {
+			color: '#F46B5D'
+		},
+		progressCircle: {
+			fontSize: '80px',
+			fontWeight: 'bolder'
+		}
 	};
 });
